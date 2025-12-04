@@ -10,7 +10,7 @@ dependencies {
     testImplementation (
             "com.codeborne:selenide:6.19.1",
             "org.junit.jupiter:junit-jupiter:5.9.3",
-            "ch.qos.logback:logback-classic:1.4.14")
+            "ch.qos.logback:logback-classic:1.4.14")    //добавляем логи
 }
 
 tasks.withType(JavaCompile) {
